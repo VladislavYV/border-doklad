@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h2 {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+td {
+    font-size: 25px;
+}
+
+p {
+    font-size: 30px;
+}
+
+body {
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.border__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px;
+}
+
+.border-text {
+    width: 100%;
+}
+
+.border-text > h3 {
+    text-align: center;
+}
+
+.border__wrapper>div {
+    padding: 30px;
+}
+
+.border1, .border-r1 {
+    border: 5px #fff solid;
+}
+
+.border2, .border-r2 {
+    border: 5px red dotted;
+}
+
+.border3, .border-r3 {
+    border: 5px #00ff4c dashed;
+}
+
+.border4, .border-r4 {
+    border: 10px rgb(145, 113, 76) double;
+}
+
+.border5, .border-r5{
+    border: 10px rgba(45, 156, 198, 0.3) groove;
+}
+
+.border6, .border-r6 {
+    border: 10px rgba(45, 156, 198, 0.9) ridge;
+}
+
+.border7, .border-r7 {
+    border: 10px aqua inset;
+}
+
+.border8, .border-r8 {
+    border: 10px #e100ff outset;
+}
+
+.border-r1 {
+    border-radius: 15px;
+}
+
+.border-r2 {
+    border-radius: 15px 100px;
+}
+
+.border-r3 {
+    border-radius: 100px 15px;
+}
+
+.border-r4 {
+    border-radius: 100px 100px 15px 15px;
+}
+
+.border-r5 {
+    border-radius: 15px 15px 100px 100px;
+}
+
+.border-r6 {
+    border-radius: 15px 30px 60px 90px;
+}
+
+.border-r7 {
+    border-radius: 50%;
+}
+
+.border-r8 {
+    border-radius: 15% 100%;
+}
+
+.border-trbl1 {
+    border-top: 5px #fff solid;
+}
+
+.border-trbl2 {
+    border-bottom: 5px red dotted;
+}
+
+.border-trbl3 {
+    border-left: 5px #00ff4c dashed;
+}
+
+.border-trbl4 {
+    border-right: 10px rgb(145, 113, 76) double;
+}
+
+.border-trbl5 {
+    border-top: 10px rgba(45, 156, 198, 0.3) groove;
+    border-bottom: 30px rgba(45, 156, 198, 0.3) groove;
+    border-left: 20px rgba(45, 156, 198, 0.3) groove;
+    border-right: 40px rgba(45, 156, 198, 0.3) groove;
+}
+
+.border-trbl6 {
+    border-top: 15px rgba(45, 156, 198, 0.9) ridge;
+    border-bottom: 15px rgba(45, 156, 198, 0.9) double;
+    border-left: 15px rgba(45, 156, 198, 0.9) dotted;
+    border-right: 15px rgba(45, 156, 198, 0.9) dashed;
+}
+
+.border-trbl7 {
+    border-top: 10px aqua inset;
+    border-bottom: 10px rgb(208, 255, 0) inset;
+    border-right: 10px #e100ff inset;
+    border-left: 10px rgba(0, 38, 255, 0.7) inset;
+}
+
+.border-trbl8 {
+    border-top: 15px red dotted;
+    border-bottom: 5px rgb(0, 255, 106) solid;
+    border-right: 10px #e100ff dashed;
+    border-left: 20px rgba(0, 225, 255, 0.7) double;
+}
+
+.border-dop-table {
+    width: 100%;
+    /* text-align: center; */
+    border: 3px solid #fff;
+    border-radius: 15px;
+    border-spacing: 15px;
+}
+
+.border-dop-table > tbody > tr > th{
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+tr {
+    border: 3px solid #fff;
+}
+
+td {
+    padding: 15px;
+}
