@@ -57,10 +57,6 @@ body {
     margin: 50px;
 }
 
-.border__wrapper>div {
-    padding: 30px;
-}
-
 .border-text {
     width: 100%;
     padding: 0;
@@ -68,6 +64,17 @@ body {
 
 .border-text > h3 {
     text-align: center;
+}
+
+.border-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.border-content>div {
+    padding: 30px;
 }
 
 .border1, .border-r1 {
@@ -193,7 +200,7 @@ body {
     padding: 15px;
 }
 
-tr {
+.border-dop-table > tbody > tr {
     border: 3px solid #fff;
 }
 
@@ -202,8 +209,74 @@ td {
 }
 
 .border-img1 {
-    border-style: solid;
-    border-width: 30px;
-    border-image-source: url(img/bird.jpg);
-    border-image: url(img/bird.jpg) 50% space;
+    border: 30px solid;
+    border-image: url(../img/ramka4.png) 10% stretch;
+}
+
+.border-img2 {
+    border: 30px solid;
+    border-image: url(../img/ramka4.png) 10% space;
+}
+
+.border-img3 {
+    border: 30px solid;
+    border-image: url(../img/ramka4.png) 10% repeat;
+}
+
+.border-img4 {
+    border: 30px solid;
+    border-image: url(../img/ramka4.png) 10% round;
+}
+
+.border-img5 {
+    border: 30px solid;
+    border-image: url(../img/ramka4.png) 50% space;
+}
+
+.border-img6 {
+    border: 30px solid;
+    border-image: linear-gradient(#001dfa, #ff5100) 150 round;
+}
+
+.border-img7 {
+    border: 30px solid;
+    border-image: radial-gradient(#001dfa, #ff5100) 10% stretch;
+}
+
+.border-img8 {
+    border: 30px solid;
+    border-image: radial-gradient(#001dfa, #ff5100) 10% repeat;
+}
+
+.border-img9 {
+    border: 30px solid;
+    border-image: radial-gradient(#001dfa, #ff5100) 50 space;
+}
+
+.border-cs-tables {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.border-collapse-table, .border-collapse-table>tbody>tr>th, .border-collapse-table>tbody>tr>td, .border-spacing-table, .border-spacing-table>tbody>tr>th, .border-spacing-table>tbody>tr>td {
+    border: 3px #fff solid;
+}
+
+.border-collapse-table1 {
+    border-collapse: collapse;
+}
+
+.border-collapse-table2 {
+    border-collapse: separate;
+}
+
+.border-spacing-table1 {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.border-spacing-table2 {
+    border-collapse: separate;
+    border-spacing: 50px;
 }
